@@ -1,0 +1,29 @@
+1. Initialing a repository tells me the files that have not been tracked.
+
+2. The staging area is a place where I can distinguish the files that are
+   subject to the logical change. It is a intermediary area between the
+   working diretory and the git repositoy.
+
+3. Version control faciliates comparing changes between any 2 versions.
+   Version control helps sharing the code and working on it at the same time.
+   
+4. Mannual commits ensures that the commits have a logical flow to it. 
+   Automatic commits usually will not provide logical flow.
+   However, manual commits rely on the user's judgement call in the commit size.
+   
+5. Multiple files that impacts one another and that should be tracked at the 
+   same time are called a repository. Commining not just a file, but 
+   commiting the entire repository is helpful because it will keep the 
+   logical reflationship intact.
+   
+6. Use git log to view logs
+   Use git log --stat to view log with stats
+   Use git diff commitstring commitstring to view the detailed changes between commits   
+   
+7. If you break something, you can always checkout an older version of code.   
+   
+   
+8. Tips on setting up git cmd:   
+   git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -n -w"
+   git config --global push.default upstream
+   git config --global merge.conflictstyle diff3
